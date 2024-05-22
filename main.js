@@ -16,3 +16,17 @@ document.querySelector('.tecla_clap');
 //   agora, a sua missão é emitir um alerta escrito “Fui clicado”,
 //  em um botão assim que ele receber um clique.
 
+function exibirMensagem() {
+    alert('fui clicado');
+}
+
+
+
+// 3) Integrando estilo e funcionalidade em um projeto WebNeste exercício, você enfrentará um desafio comum no desenvolvimento web:
+//  garantir consistência de design entre diferentes navegadores.
+//   Trabalhando com o mesmo projeto do instrumento musical digital,
+//    você percebeu que o mini player de áudio tem aparências diferentes no Firefox e no Chrome. 
+//    Seu objetivo é personalizar o estilo desse player de áudio usando CSS para que ele tenha uma aparência consistente em ambos os navegadores.
+//     Como a tag audio é difícil de estilizar diretamente, você precisará encontrar uma maneira criativa de contornar essa limitação,
+//  talvez usando elementos HTML adicionais e CSS para alcançar o design desejado.
+
