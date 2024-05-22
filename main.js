@@ -1,5 +1,5 @@
-function tocaSomPom() {
-    document.querySelector('#som_tecla_pom').play();
+function tocaSom(idElemntoAudio) {
+    document.querySelector(idElemntoAudio).play();
 
 }
 
