@@ -3,11 +3,7 @@ function tocaSomPom() {
 
 }
 
-// function tocaSomClap() {
-//     document.querySelector('#som_tecla_clap').play();
-// }
-
-
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+// variavel guardando lista de teclas para manipulaç//ão
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
