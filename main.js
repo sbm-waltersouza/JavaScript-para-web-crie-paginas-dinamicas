@@ -3,11 +3,11 @@ function tocaSomPom() {
 
 }
 
-function tocaSomClap() {
-    document.querySelector('#som_tecla_clap').play();
-}
+// function tocaSomClap() {
+//     document.querySelector('#som_tecla_clap').play();
+// }
 
 
-document.querySelector('.tecla_pom').onclick()
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
 
