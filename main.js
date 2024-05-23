@@ -15,14 +15,16 @@ while (contador < 9) {
 
     const istrumento = tecla.classList[1];
 
-    console.log(istrumento);
 
-    tecla.onclick = function() {
-        tocaSom('#som_tecla_pom');
+    // templete string
+    const idAudio = `#som_${istrumento}`;
+   // console.log(idAudio);
+
+    tecla.onclick = function () {
+        tocaSom(idAudio);
     };
 
 
     contador = contador + 1;
-    console.log(contador);
+   // console.log(contador);
 }
- 
